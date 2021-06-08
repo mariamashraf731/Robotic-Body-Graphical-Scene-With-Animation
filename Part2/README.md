@@ -1,5 +1,18 @@
 ## Part 2
 ------------
+# **Graphics-final-project**
+
+# **Team : 20**
+
+
+
+      Name                   SEC    BN     
+      
+      Ahmed Sayed Ahmed       1     4    
+      Esraa Mohamed Saeed     1     10     
+      Aya Mahmoud Salama      1     22     
+      Sohila Mohamed Maher    1     39     
+      Mariam Ashraf Mohamed   2     23  
 #### volume rendering app with VTK & Qt
 
 * GUI had been created using `pyqt5` and `Qt Creator`

@@ -1,11 +1,24 @@
+## Part 1
+
+# **Team : 20**
+
+
+
+      Name                   SEC    BN     
+      
+      Ahmed Sayed Ahmed       1     4    
+      Esraa Mohamed Saeed     1     10     
+      Aya Mahmoud Salama      1     22     
+      Sohila Mohamed Maher    1     39     
+      Mariam Ashraf Mohamed   2     23  
 # Animation,Object loading &texture mapping.
 
 ## Steps of implementation:
 ## a) Animation
 1. Making the robot run by using 'z' keyboard button 
-1. I made a set of poses by estmating angles from this image and calling them by timer function 
+1. We made a set of poses by estmating angles from this image and calling them by timer function 
 
- ![sample](/home/sohila/cg-task3-team-20-2/Part1/run.jpeg)
+ ![sample](\run.jpeg)
 
 ```
 int poses_run[5][10]={{60,0,60,0,-90,-100,-45,10,45,100},
@@ -83,7 +96,7 @@ void drawmodel(char *filename)
      break;
      
 ```
-b) For set down I made another set of poses with its timer function
+b) For set down We made another set of poses with its timer function
 ```
 double poses_setting[4][6]={{-0.2,-30,-30,30,30,0},
 {-0.4,-45,-45,45,45,0},
@@ -231,4 +244,8 @@ void initRendering(const char* floorname, GLuint textureId){
     glMaterialfv(GL_FRONT, GL_SHININESS, shininess);
 
 ```
-## Note : screenshots ang gifs are in results folder .
+## Screenshots and GIFs Results .
+![sample](\Sample.jpeg)
+![sample](\Sample1.Gif)
+![sample](\Sample2.Gif)
+![sample](\Sample3.Gif)

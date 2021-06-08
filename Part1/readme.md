@@ -18,7 +18,7 @@
 1. Making the robot run by using 'z' keyboard button 
 1. We made a set of poses by estmating angles from this image and calling them by timer function 
 
- ![sample](\run.jpeg)
+ ![sample](\run.JPEG)
 
 ```
 int poses_run[5][10]={{60,0,60,0,-90,-100,-45,10,45,100},
@@ -245,7 +245,7 @@ void initRendering(const char* floorname, GLuint textureId){
 
 ```
 ## Screenshots and GIFs Results .
-![sample](\Sample.jpeg)
-![sample](\Sample1.Gif)
-![sample](\Sample2.Gif)
-![sample](\Sample3.Gif)
+![sample](\Sample.JPEG)
+![sample](\Sample1.GIF)
+![sample](\Sample2.GIF)
+![sample](\Sample3.GIF)

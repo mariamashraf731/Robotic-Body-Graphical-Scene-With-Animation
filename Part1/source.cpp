@@ -191,8 +191,9 @@ void init_projection(void)
      f=f%5;
      setposes_run(f);
      f++;
+     if(f<=25){
      glutPostRedisplay();
-     glutTimerFunc(800,timer_run,0);
+     glutTimerFunc(800,timer_run,0);}
  }
 static int d=0;
  void timer_setting(int value){
@@ -793,7 +794,7 @@ void screen_menu(int value)
 		break;
 	
 	}
-	initRendering(floorname, _textureId);
+	//initRendering(floorname, _textureId);
     glutPostRedisplay();
 }
 void attachMenu()
